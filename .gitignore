@@ -1,0 +1,24 @@
+# Ignora dependências
+node_modules/
+
+# Ignora variáveis de ambiente (ex: chave da OpenAI)
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dados de sessão do Venom
+tokens/
+session/
+whatsapp-session.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+
